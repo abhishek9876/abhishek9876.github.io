@@ -1,0 +1,22 @@
+<header ng-controller="homeCtrl">
+    <label style="font-size: 30px;font-family:fantasy">TO DO APP</label>
+    <ul>
+        <!--<li><button data-ng-click="gotoHome()">Home</button></li>
+        <li><button data-ng-click="gotoDashboard()">Dashboard</button></li>
+        <li><button data-ng-click="gotoProfile()">Profile</button></li>-->
+        <li><button data-ng-click = "profile_dropdown()">{{initial}}</button>
+            <div id="myDropdown" class="dropdown-content">
+                <div class="displayusername">{{username}}</div>
+                <div><button data-ng-click="gototeam()">Team</button></div>
+                <div><button data-ng-click="gotoDashboard()">Dashboard</button></div>
+                
+              </div>
+        </li>
+    </ul>
+</header>
+<main>
+    
+
+    <ui-view></ui-view>
+</main>
+<!--<aside>This is app sidebar</aside>-->

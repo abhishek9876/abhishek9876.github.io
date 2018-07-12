@@ -1,0 +1,121 @@
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.322);
+    color: #fff;
+    height: 70px;
+    line-height: 3;
+}
+header ul{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header ul li{
+float: left;
+line-height: 3;
+margin-right: 10px;
+}
+header ul li button{
+    height: 35px;
+    color:black;
+    width: 35px;
+    outline: none;
+    border: 0px solid #aaa;
+    background: #c0c0c0;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: calc(100% - 50px);
+    width: 85%;
+    /*background-color: #ffffff;*/
+    margin-top: 20px;
+}
+li{
+    list-style-type: none;
+}
+.checked{
+    text-decoration: line-through;
+    color:black;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c0c0c0;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -120px;
+    width:150px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.displayusername{
+    color: black;
+    font-style:oblique;
+    font-weight: bold;
+}
+.description_design{
+    float:right;
+    margin-right: 300px;
+    border-radius: 2%;
+    border: 1px solid #aaa;
+    width:150px;
+    height:190px;
+}
+.description_design1{
+    border-radius: 2%;
+    border: 2px solid #aaa;
+    width:500px;
+    height:50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    height:30px;
+}
+.mainbody{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.todoinput{
+    margin: 10px;
+}
